@@ -34,6 +34,11 @@ Introducción a los CTEs como recurso para organizar y clarificar subconsultas c
 
 En definitiva, este conjunto de ejercicios me ha servido para consolidar conocimientos de SQL aplicados a un esquema de base de datos realista y marcar una base sólida sobre la que seguir trabajando en problemas más avanzados.
 
+
+## Diagrama ERD
+
+El esquema del proyecto se encuentra en el archivo [Proyecto.erd.erd](Proyecto.erd.erd).
+
 Autor
 
 Manuel Cutrona
