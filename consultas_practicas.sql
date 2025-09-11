@@ -571,7 +571,7 @@ ORDER BY c."name";
 
 SELECT CONCAT(s.first_name,' ',s.last_name) AS empleado, s2.store_id 
 FROM staff s 
-CROSS JOIN store s2
+CROSS JOIN store s2;
 
 --64. Encuentra la cantidad total de películas alquiladas por cada cliente y
 --muestra el ID del cliente, su nombre y apellido junto con la cantidad de
@@ -584,4 +584,4 @@ ON c.customer_id = r.customer_id
 INNER JOIN payment p 
 ON r.rental_id = p.rental_id 
 GROUP BY id, nombre 
-ORDER BY id 
+ORDER BY id;
